@@ -16,6 +16,10 @@ app.post('/dump_payload', async () => {
     res.send({"msg": "Dumped"});
 });
 
+app.get('/alive', () => {
+    res.send({'status': 'I am alive'});
+});
+
 app.use(errorMiddleware());
 
 const listener = app.listen(process.env.PORT || 0, () => {
