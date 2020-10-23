@@ -1,0 +1,27 @@
+{
+  "name": "envoy_dumper",
+  "version": "1.0.0",
+  "description": "Dump payloads from envoy and log them to figure out what's coming over.",
+  "main": "index.js",
+  "engines": {
+    "node": "13.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InvisibleTech/envoy_dumper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InvisibleTech/envoy_dumper/issues"
+  },
+  "homepage": "https://github.com/InvisibleTech/envoy_dumper#readme",
+  "dependencies": {
+    "@envoy/envoy-integrations-sdk": "^1.0.0",
+    "express": "^4.17.1"
+  }
+}
